@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bundles Heist</string>
+    <string name="btn_call">Call</string>
+    <string name="title">Packages</string>
+    <string name="pack1">1Gb 24hrs @ sh20</string>
+    <string name="pack2"> 1.5 Gb 24hrs @ sh30</string>
+    <string name="pack3">5Gb 1hr @ sh50</string>
+    <string name="pack4" >25Gb no Expiry @ sh200</string>
+    <string name="pack5">15Gb  1week @ sh 100</string>
+    <string name="pack6">5Gb no Expiry @ sh100</string>
+    <string name="pack7">3Gb 24hrs @ sh50 </string>
+    <string name="pack8">1 Week free WhatsApp @ sh 50</string>
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title"
+        android:textColor="#050505"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="1dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/cards"
+                app:cardCornerRadius="8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/package1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="16dp"
+                    android:text="@string/pack1"
+                    android:focusable="true" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/cards"
+                app:cardCornerRadius="8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/package2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="16dp"
+                    android:text="@string/pack2"
+                    android:focusable="true" />
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/cards"
+                app:cardCornerRadius="8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/package3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="16dp"
+                    android:text="@string/pack3"
+                    android:focusable="true" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/cards"
+                app:cardCornerRadius="8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/package4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="16dp"
+                    android:text="@string/pack4"
+                    android:focusable="true" />
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/cards"
+                app:cardCornerRadius="8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/package5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="16dp"
+                    android:text="@string/pack5"
+                    android:focusable="true" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/cards"
+                app:cardCornerRadius="8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/package6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="16dp"
+                    android:text="@string/pack6"
+                    android:focusable="true" />
+            </androidx.cardview.widget.CardView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/cards"
+                app:cardCornerRadius="8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/package7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="16dp"
+                    android:text="@string/pack7"
+                    android:focusable="true" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="171dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/cards"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:strokeColor="#FF9800"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/package8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:focusable="true"
+                    android:maxLines="3"
+                    android:padding="16dp"
+                    android:text="@string/pack8"
+                    />
+
+                    <!--android:autoSizeMaxTextSize="18sp"
+                    android:autoSizeMinTextSize="16sp"
+                    android:autoSizeTextType="uniform"-->
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
